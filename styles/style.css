@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header ul {
+    gap: 30px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bgRed {
+    background-color: mediumvioletred;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    padding: 15px;
+    width: 33.33%;
+}
